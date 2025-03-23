@@ -15,5 +15,5 @@ setInterval(async function(){
         e=0
     }
     // console.log(datafxn[e].image)
-    image.src="../images/"+datafxn[e].image
+    image.src="./images/"+datafxn[e].image
 },3000)

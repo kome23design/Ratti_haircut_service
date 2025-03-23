@@ -49,7 +49,7 @@ const hairstyledisplay = async()=>{
 
         const img_tag=document.createElement("img")
         art_tag.appendChild(img_tag)
-        img_tag.src="../images/"+details[i].image
+        img_tag.src="./images/"+details[i].image
 
         const p_tag=document.createElement("p")
         art_tag.appendChild(p_tag)
