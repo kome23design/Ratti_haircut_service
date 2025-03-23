@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "name":"Pushback_twist",
+        "image":"IMG-20241231-WA0009.jpg"
+    },
+
+    {
+        "id":2,
+        "name":"Lowcut",
+        "image":"IMG-20241231-WA0002.jpg"
+    },
+    {
+        "id":3,
+        "name":"Colored_pushback",
+        "image":"IMG-20241231-WA0006.jpg"
+    },
+    {
+        "id":4,
+        "name":"Lucs",
+        "image":"IMG-20241231-WA0004.jpg"
+    },
+    {
+        "id":5,
+        "name":"Colored_lucs",
+        "image":"IMG-20241231-WA0003.jpg"
+    },
+    {
+        "id":6,
+        "name":"Pushback",
+        "image":"IMG-20241231-WA0008.jpg"
+    },
+    {
+        "id":7,
+        "name":"Dreadlucs",
+        "image":"IMG-20241231-WA0005.jpg"
+    }
+
+
+]

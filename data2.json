@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "name":"outside_view",
+        "image":"20241231_095133.jpg"
+    },
+    {
+        "id":2,
+        "name":"inside_view1",
+        "image":"20241231_095552.jpg"
+    },
+    {
+        "id":3,
+        "name":"inside_view2",
+        "image":"20241231_095605.jpg"
+    },
+    {
+        "id":4,
+        "name":"inside_view3",
+        "image":"20241231_095631.jpg"
+    }
+
+
+]

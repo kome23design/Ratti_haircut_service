@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(215, 219, 250);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(21, 21, 20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+.header h1{
+    margin-left: 30px;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+main {
+    /* margin-top: 3rem; */
+}
+.list{
+    display: flex;
+    list-style-type: none;
+}
+.list li{
+    margin-right: 30px;
+    color:  rgb(60, 60, 248);
+    font-size: 27px;
+}
+.list a{
+    text-decoration: none;
+}
+.salonview{
+    display: flex;
+}
+
+.view img{
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    /* padding-top: 8px; */
+    /* margin-right: 5px; */
+}
+.abtsection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+.abtsection .about{
+    display: flex;
+    justify-content: center;
+}
+.abtsection .abttextimg{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+}
+.abttextimg .abttext{
+    width: 45%;
+    height: 400px;
+}
+.abttextimg .abttext img{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    
+}
+.hairstylesection{
+    margin-top: 4rem;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.hairstyle{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    padding: 0 1.5rem;
+}
+
+.arthair{
+    height: 50%;
+    width: 30%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 20px #0000002e;
+}
+.arthair img{
+    width: 100%;
+    height: 548px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+#contact{
+    width: 100%;
+}
+.contimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+}
+.phoneiconcolor{
+    color: rgb(9, 175, 9);
+}
+
+
+footer{
+    background-color: rgb(21, 21, 20);
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+footer .footerdiv1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+footer .footerdiv2{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* *********code for tablet********* */
+@media screen and (max-width:992px){}
+
+
+
+/* *********code for mobile phone********* */
+@media screen and (max-width:767px){
+
+    .header h1{
+        font-size: 22px;
+    }
+    .list li{
+        font-size: 10px;
+    }
+    .view img{
+        height: 240px;
+        width: 100%;
+    }
+    .hairstyle{
+        flex-direction: column;
+        padding: 1rem 3rem;
+    }
+    .arthair{
+        width: 100%;
+        
+    }
+    .arthair img{
+        height: 390px;
+    }
+}
