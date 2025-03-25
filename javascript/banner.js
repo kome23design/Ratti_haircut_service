@@ -1,5 +1,5 @@
 const banner=async()=>{
-    const data = await fetch("../data2.json",{
+    const data = await fetch("./data2.json",{
         method:'GET',
         headers:{'content-Type':'application/json'}
     })

@@ -30,7 +30,7 @@
 // displayAnonc()
 
 const hairstyles=async()=>{
-    const infos=await fetch("../data.json",{
+    const infos=await fetch("./data.json",{
         method:'GET',
         headers:{'content-Type':'application/json'}
     })
